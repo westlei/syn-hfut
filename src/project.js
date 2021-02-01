@@ -1878,6 +1878,8 @@ window.__require = function e(t, n, o) {
                     }).delay(.5).union().repeatForever().start()
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
+                }, t.prototype.adsButtonFunc = function() {
+                    window.location.href = "https://blog.csdn.net/qq_42121265"
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
